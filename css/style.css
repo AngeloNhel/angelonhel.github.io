@@ -34,7 +34,6 @@ li:hover {
   /* home */ 
 
 #home {
-  background-image: url("/Mini_Project_1/assets/header_image.jpg");
   background-repeat: cover;
   background-position: top;
   text-align: center;
