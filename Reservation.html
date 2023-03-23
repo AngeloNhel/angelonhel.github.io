@@ -27,7 +27,7 @@
 
     </head>
     <body>
-        <div class="">
+        
 
             <section id="web-header">
                 <div class="xx">
@@ -73,19 +73,20 @@
                     </nav>
                     
                 </div>
-
+            </section>
+            <section class="web_body" class="d-flex">    
                 <div class="xx">
-                    <div id="home"  style="background-image: url(assets/new.jpg);">
+                    <div id="home"  style="background-image: url(assets/new.jpg);" style="height: auto; width: auto;">
                        <!-- create a body -->
-                       <div class="container">
+                       <div class="container"class="d-flex">
                             <div class="row"  style="border: 3px solid #5c3c2a;  background-color: #917b6c76; padding: 20px; border-radius: 20px;">
-                                <div class="col-md-4 item d-none d-md-block">
+                                <div class="col-sm-4 item d-none d-md-block">
                                    <div style="font-family: Verdana; color: white;"> 
-                                       <div style="padding-bottom: 20px;"><h2 style="color:#d3b21f !important; text-align: left; font-weight: bold; font-size:45px; text-shadow: 2px 2px 3px black;">Make Your <br> Reservation </h2></div>
-                                        <div><p style="text-align: left; font-weight: bold; font-size: larger; text-shadow: 2px 2px 3px black;" >“I don't care if the glass is half, full or empty . is there coffee in it? Be fa-brew-lous! Better latte than never! Follow your heart, but take coffee with you.”</p></div>
+                                       <div style="padding-bottom: 20px;"><h2 style="color:#d3b21f !important; text-align: left; font-weight: bold; text-shadow: 2px 2px 3px black;">Make Your <br> Reservation </h2></div>
+                                        <div><p style="text-align: left; font-weight: bold; text-shadow: 2px 2px 3px black;" >“I don't care if the glass is half, full or empty . is there coffee in it? Be fa-brew-lous! Better latte than never! Follow your heart, but take coffee with you.”</p></div>
                                    </div>
                                 </div>
-                                <div class="col-md item">
+                                <div class="col-sm item">
                                     <div class="row">
                                         <div class="col">
                                             <label for="firstname" class="form-label">First Name</label>
@@ -98,22 +99,46 @@
                                     </div>
                                     <div class="row">
                                         <div class="col">
-                                            <label for="firstname" class="form-label">First Name</label>
-                                            <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                                            <label for="email" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Email">
                                         </div>
                                         <div class="col">
-                                            <label for="lastname" class="form-label">Last Name</label>
-                                            <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+                                            <label for="number" class="form-label">Number</label>
+                                            <input type="text" class="form-control" id="number" placeholder="Number">
                                         </div>
+                                        <div class="col">
+                                            <label for="date" class="form-label">Date</label>
+                                            <input type="date" class="form-control" id="date">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <label for="chair" class="form-label">No. of chairs</label>
+                                            <input type="text" class="form-control" id="chair" placeholder="No. of chairs">
+                                        </div>
+                                        <div class="col">
+                                            <label for="table" class="form-label">No. of tables</label>
+                                            <input type="text" class="form-control" id="table" placeholder="No. of tables">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col d-none d-sm-block">
+                                            <label for="info" class="form-label">More details about your inquiry</label>
+                                            <textarea type="text" class="form-control" id="info" placeholder="More details about your inquiry"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="padding-top: 15px;">
+                                        <div>
+                                            <div class="btn bnt-primary">Submit</div>
+                                         </div>
                                     </div>
                                 </div>
                             </div>
                        </div>
                     </div>
                 </div>
-
             </section>
-            <section id="web-footer">
+            <section id="web-footer" class="d-flex">
                 <div class="xx">
                     <footer id="footer">
                       <div>
@@ -136,6 +161,5 @@
                     </footer>
                 </div>
             </section>
-        </div>
     </body>
 </html>
