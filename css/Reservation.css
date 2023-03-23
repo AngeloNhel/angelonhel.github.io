@@ -44,9 +44,8 @@ li:hover {
   opacity: 0.8;
 }
 label {
-  color: white;
-  text-shadow: 2px 2px 3px black;
-  font-weight: bold;
+  color: rgb(47, 47, 47);
+
 }
 
 /* footer */
