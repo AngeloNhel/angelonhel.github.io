@@ -9,7 +9,7 @@ li {
   transition: 1s;
   border-radius: 10px;
 }
-.nav-item:hover {
+li:hover {
   background-color: #423910;
 }
 .dropdown-item:hover {
@@ -32,18 +32,27 @@ li {
 }
 
   /* home */ 
-.img {
-  opacity: 0.8 ;
+
+#home {
+  background-repeat: cover;
+  background-position: top;
+  text-align: center;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  opacity: 0.8;
 }
-.slide {
-  justify-content: center !important;
-  font-weight: bolder;
+img {
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.38);
+  padding: 10px;
+  filter: grayscale(1) brightness(0.5);
+  transition: 0.3s linear;
 }
-.d-block {
-  border-radius: 10px;
+img:hover {
+
+  filter: grayscale(0) brightness(1);
 }
+
 /* footer */
 
 #footer {
