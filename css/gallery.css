@@ -42,17 +42,15 @@ li:hover {
   padding-bottom: 100px;
   opacity: 0.8;
 }
-.card-img-top {
-  height: 10rem;
+img {
   border-radius: 20px;
+  padding: 10px;
+  filter: grayscale(1) brightness(0.5);
+  transition: 0.3s linear;
 }
-.card {
-  border-radius: 20px;
-  box-shadow: 2px 3px 4px black;
-  transition: transform .2s;
-}
-.card:hover {
-  transform: scale(1.1); 
+img:hover {
+
+  filter: grayscale(0) brightness(1);
 }
 
 /* footer */
