@@ -42,15 +42,29 @@ li:hover {
   padding-bottom: 100px;
   opacity: 0.8;
 }
-.img-fluid {
-  border-radius: 20px;
-  padding: 10px;
-  filter: grayscale(1) brightness(0.5);
-  transition: 0.3s linear;
+h2{
+  color: white;
+  font-family: inter;
 }
-.img-fluid:hover {
-
-  filter: grayscale(0) brightness(1);
+.p{
+  color: white;
+}
+.card {
+  background-color: #c1b171;
+  border-radius: 20px;
+  box-shadow: 2px 3px 4px black;
+  transition: transform .2s;
+}
+.card:hover {
+  transform: scale(1.1); 
+}
+.card-img-top{
+  width: 120px;
+  border-radius: 50%;
+  padding: 15px;
+}
+.row {
+  gap:40px;
 }
 
 /* footer */
