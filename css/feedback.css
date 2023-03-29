@@ -63,6 +63,13 @@ h2{
   border-radius: 50%;
   padding: 15px;
 }
+.effect {
+  filter: grayscale(1) brightness(0.5);
+  transition: 0.3s linear;
+}
+.effect:hover {
+  filter: grayscale(0) brightness(1);
+}
 .content {
   gap:40px;
 }
