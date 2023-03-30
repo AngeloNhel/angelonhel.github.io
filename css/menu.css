@@ -45,6 +45,11 @@ li:hover {
 .card-img-top {
   height: 10rem;
   border-radius: 20px;
+  filter: grayscale(1) brightness(0.5);
+  transition: 0.3s linear;
+}
+.card-img-top:hover {
+  filter: grayscale(0) brightness(1);
 }
 .card {
   border-radius: 20px;
